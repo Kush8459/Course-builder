@@ -1,0 +1,42 @@
+.module {
+  background: #d64242;
+  border-radius: 12px;
+  padding: 2em;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2em;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.module:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(178, 58, 58, 0.2);
+}
+
+.module-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.module-actions .module-action-icon {
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+}
+
+.module-resources {
+  padding-left: 1em;
+}
+
+.module-title {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 0.5em;
+}
+
+.module-description {
+  font-size: 1.4rem;
+  color: #666;
+}
+

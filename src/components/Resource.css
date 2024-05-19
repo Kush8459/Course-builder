@@ -1,0 +1,29 @@
+.resource {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 1.5em;
+  border: 1px solid #ddd;
+  margin-bottom: 2em;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.resource:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.resource-actions .resource-action-icon {
+  cursor: pointer;
+}
+
+.resource-title {
+  font-size: 1.6rem;
+  color: #333;
+  margin-bottom: 0.5em;
+}
+
+.resource-description {
+  font-size: 1.2rem;
+  color: #666;
+}
+
